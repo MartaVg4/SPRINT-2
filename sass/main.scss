@@ -1,3 +1,6 @@
+//variables customitzades
+//no consigo que se me cambien los colores ni los cambios de estilos que hago en este main, me da un error que no consigo resolver, he probado varias extensiones de live sass compiler, al principio me funciono. Es como que no me los crea en el main.css.
+
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 $primary: #5265e1;
@@ -102,7 +105,8 @@ $secondary: #fa5959;
   background-color: $body-bg;
   border-color: $dark;
 }
-
+//importo variables per separat, perque no les detecta
 @import "../node_modules/bootstrap/scss/variables";
 
+//importem bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
