@@ -1,1 +1,35 @@
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+$primary: #5265e1;
+$secondary: #fa5959;
+
+// $theme-colors: (
+//   "primary": $primary,
+//   "secondary": $secondary,
+//   "success": $success,
+//   "info": $info,
+//   "warning": $warning,
+//   "danger": $danger,
+//   "light": $light,
+//   "dark": $dark,
+// );
+
+.formRight {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  top: 30%;
+  left: 30%;
+}
+
+.formLeft {
+  position: absolute;
+  z-index: -1;
+  width: 3000%;
+  height: 100%;
+  top: 25%;
+  right: 25%;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
