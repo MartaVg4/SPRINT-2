@@ -47,5 +47,35 @@ $secondary: #fa5959;
     margin-top: 8rem;
   }
 }
+.p-footer {
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 0.65rem;
+}
+
+.social-icon:hover {
+  filter: invert(50%) sepia(47%) saturate(3472%) hue-rotate(325deg)
+    brightness(100%) contrast(100%);
+}
+
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 0.1rem;
+  font-size: 0.65rem;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: $dark;
+  border-bottom: 0.25rem solid $secondary;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: $gray-600;
+  border: none;
+}
+
+.nav .nav-item .nav-link {
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
