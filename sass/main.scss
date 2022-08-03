@@ -78,4 +78,31 @@ $secondary: #fa5959;
   font-size: 0.85rem;
 }
 
+//estats actius dels botons, links, tabs i avisos
+
+.nav-link:hover,
+.accordion-button:hover {
+  color: $secondary;
+}
+
+.btn-primary:hover {
+  color: $primary;
+  background-color: $body-bg;
+  border-color: $primary;
+}
+
+.btn-secondary:hover {
+  color: $secondary;
+  background-color: $body-bg;
+  border-color: $secondary;
+}
+
+.btn-light:hover {
+  color: $dark;
+  background-color: $body-bg;
+  border-color: $dark;
+}
+
+@import "../node_modules/bootstrap/scss/variables";
+
 @import "../node_modules/bootstrap/scss/bootstrap";
